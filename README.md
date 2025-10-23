@@ -30,6 +30,27 @@
 
 ---
 
+## 将更新发布到 Cloudflare Pages
+
+如果你已经在 Cloudflare Pages 中连接了本仓库，并希望把最新的修改部署到线上站点，可以参考以下流程：
+
+1. 在本地终端切换到主分支并同步远端：
+   ```bash
+   git checkout main
+   git pull origin main
+   ```
+2. 将你在当前工作分支上的提交合并到 `main`，或在 `main` 上直接进行修改并提交。
+3. 把更新推送到远端主分支：
+   ```bash
+   git push origin main
+   ```
+4. Cloudflare Pages 会侦测到对 `main` 分支的推送并自动开始新的构建与部署。你可以在 Cloudflare Pages 控制台的「Deployments」中查看进度。
+5. 部署完成后，刷新线上页面即可看到最新变更。
+
+> 若需要使用其他分支触发部署，可在 Cloudflare Pages 的项目设置中调整「Production branch」或开启预览分支部署。
+
+---
+
 ## Docker 部署
 
 ```bash
