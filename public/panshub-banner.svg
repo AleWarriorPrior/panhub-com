@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">PanShub banner</title>
+  <desc id="desc">Dark banner with the PanShub name, description text, a decorative dotted grid, and a white cloud connected to three server racks.</desc>
+  <rect width="1280" height="640" rx="32" fill="#2D3434" />
+  <g fill="#ffffff">
+    <text x="140" y="230" font-family="'Inter', 'Poppins', 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-weight="700" font-size="110" letter-spacing="4">PANSHUB</text>
+    <text x="140" y="310" font-family="'Inter', 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="40" fill="#E5E7EB">全面的网盘搜索工具</text>
+  </g>
+  <g fill="#4B5563">
+    <circle cx="150" cy="370" r="6" />
+    <circle cx="190" cy="370" r="6" />
+    <circle cx="230" cy="370" r="6" />
+    <circle cx="270" cy="370" r="6" />
+    <circle cx="150" cy="410" r="6" />
+    <circle cx="190" cy="410" r="6" />
+    <circle cx="230" cy="410" r="6" />
+    <circle cx="270" cy="410" r="6" />
+    <circle cx="150" cy="450" r="6" />
+    <circle cx="190" cy="450" r="6" />
+    <circle cx="230" cy="450" r="6" />
+    <circle cx="270" cy="450" r="6" />
+  </g>
+  <g transform="translate(720 120)">
+    <g fill="#FFFFFF">
+      <circle cx="140" cy="150" r="110" />
+      <circle cx="290" cy="110" r="100" />
+      <circle cx="430" cy="150" r="110" />
+      <rect x="90" y="150" width="400" height="180" rx="90" />
+    </g>
+    <path d="M290 320v80" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" />
+    <g fill="#FFFFFF">
+      <rect x="80" y="380" width="120" height="130" rx="20" />
+      <rect x="230" y="380" width="120" height="130" rx="20" />
+      <rect x="380" y="380" width="120" height="130" rx="20" />
+    </g>
+    <g fill="#2D3434">
+      <rect x="105" y="415" width="70" height="20" rx="10" />
+      <rect x="255" y="415" width="70" height="20" rx="10" />
+      <rect x="405" y="415" width="70" height="20" rx="10" />
+      <circle cx="140" cy="460" r="9" />
+      <circle cx="290" cy="460" r="9" />
+      <circle cx="440" cy="460" r="9" />
+      <circle cx="165" cy="460" r="9" />
+      <circle cx="315" cy="460" r="9" />
+      <circle cx="465" cy="460" r="9" />
+    </g>
+    <path d="M230 320h120" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" />
+    <path d="M80 320h120" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" />
+    <path d="M380 320h120" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" />
+  </g>
+</svg>

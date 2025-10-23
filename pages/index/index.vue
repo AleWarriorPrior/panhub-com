@@ -1,10 +1,11 @@
 <template>
   <div class="home">
     <header class="hero">
-      <div class="hero__logo">
-        <img src="/logo.png" alt="logo" />
-      </div>
-      <div class="hero__subtitle">全网最全的网盘搜索工具</div>
+      <span class="visually-hidden">PanShub · 全面的网盘搜索工具</span>
+      <img
+        class="hero__image"
+        src="/panshub-banner.svg"
+        alt="PanShub - 全面的网盘搜索工具" />
     </header>
 
     <SearchBox
@@ -622,6 +623,17 @@ onMounted(() => {
   margin: 24px auto 0; /* 去掉底部 40px 外边距，初始不出现滚动条 */
   padding: 0 16px 16px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .toolsbar {
   display: flex;
   align-items: center;
@@ -633,19 +645,17 @@ onMounted(() => {
   font-size: 12px;
 }
 .hero {
-  text-align: center;
-  padding: 24px 16px;
-  border: 1px solid #e8e8e8;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #fafafa, #f6faff);
+  margin-bottom: 24px;
+  padding: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: transparent;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
 }
-.hero__logo img {
-  width: 150px;
-  height: 128px;
-}
-.hero__subtitle {
-  color: #666;
-  font-size: 14px;
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .search {
