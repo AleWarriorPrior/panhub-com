@@ -2,11 +2,7 @@
   <div class="layout">
     <header class="header">
       <nav class="nav">
-        <NuxtLink to="/" class="brand">PanHub</NuxtLink>
-        <div class="spacer" />
-        <button class="link" type="button" @click="openSettings = true">
-          设置
-        </button>
+        <NuxtLink to="/" class="brand">PanShub</NuxtLink>
       </nav>
     </header>
     <main class="main">
@@ -183,20 +179,6 @@ button {
   font-weight: 800;
   color: #111;
   text-decoration: none;
-}
-.spacer {
-  flex: 1;
-}
-.link {
-  border: 1px solid #eee;
-  color: #333;
-  text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.link:hover {
-  background: #f6f7f9;
 }
 .main {
   flex: 1;
